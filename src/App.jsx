@@ -4,7 +4,7 @@ import Homepage from './Homepage'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Projects from './Projects'
-import Resume from './Resume'
+import Résumé from './Résumé'
 import Contact from './Contact'
 import './styles/App.scss'
 
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/résumé" element={<Resume />} />
+        <Route path="/résumé" element={<Résumé />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
