@@ -1,0 +1,44 @@
+.contact {
+
+    h1 {
+        font-size: 55px;
+        font-family: "Kanit", sans-serif;
+
+
+        &::before {
+            content: '<h1>';
+            font-family: "Atkinson Hyperlegible Mono", sans-serif;
+            color: #3D9970;
+            font-size: 2.5rem;
+            margin-right: 10px;
+            margin-top: 10px;
+            animation: fadeIn 1s 2s backwards;
+
+
+        }
+
+        &::after {
+            content: '<h1>';
+            font-family: "Atkinson Hyperlegible Mono", sans-serif;
+            color: #3D9970;
+            font-size: 2.5rem;
+            margin-left: 10px;
+            margin-top: 10px;
+            animation: fadeIn 1s 2s backwards;
+
+        }
+
+    }
+
+    p {
+        font-family: "Kanit", sans-serif;
+        font-size: 20px;
+        animation: fadeIn 1s 2s backwards;
+    }
+
+    h6 {
+        font-size: 2rem;
+        font-family: "Kanit", sans-serif;
+        animation: fadeIn 1s 2s backwards;
+    }
+}

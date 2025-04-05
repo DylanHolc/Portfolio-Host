@@ -1,0 +1,63 @@
+@import 'animate.css';
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.navbar {
+    background-color: #3D9970;
+}
+
+.html-tags {
+    color: #3D9970;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-size: 2.5rem;
+    margin-left: 12px;
+    opacity: 0.6;
+
+}
+
+.body-tags {
+    color: #3D9970;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-size: 2.5rem;
+    margin-left: 125px;
+    opacity: 0.6;
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #3D9970;
+
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.proj-btn {
+    background-color: #3D9970;
+    color: white;
+}
+
+.proj-btn:hover {
+    border: 1.5px solid white;
+}
+
+.homepage {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    opacity: 0;
+    transform-style: preserve-3d;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1s;
+}

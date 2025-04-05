@@ -1,0 +1,30 @@
+.logo-container {
+    z-index: -1;
+    position: absolute;
+    top: auto;
+    right: 10%;
+    bottom: 18%;
+    left: auto;
+    margin: auto;
+}
+
+.fadedLogo {
+    transform: rotateZ(20deg) !important;
+    animation: fadeOut 4.5s 1.8s backwards;
+}
+
+.solidLogo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    animation: fadeIn 4.5s 1.8s backwards;
+    transform: rotateZ(20deg);
+}
+
+.invis {
+    opacity: 0;
+}
