@@ -4,7 +4,7 @@ const Résumé = () => {
     return (
         <div className="container-fluid row">
             <div className="col-12 d-flex justify-content-center mt-5 mb-3">
-                <img src="/1741576675129-a0cdc224-ab5e-4401-8ee9-af3ecd70d148_1.jpg" alt="" className="my-5 img-fluid" />
+                <img src="/1743976249595-a41aa25f-677a-4921-b4ae-4c936224db23_1.jpg" alt="" className="my-5 img-fluid" />
             </div>
             <div className="d-flex justify-content-center mb-5 ">
                 <a href="/Dylan_H_SWE__Copy_.pdf" download={"Resume.pdf"} className="btn btn-lg proj-btn fw-bold">Download</a>
