@@ -32,7 +32,7 @@ const Navbar = () => {
                             <Link className="navbar-brand fw-bold my-auto nav-link " to="/projects"><Window size={"1.5em"} color='white' /></Link>
                         </div>
                         <div className='col-3'>
-                            <Link className="navbar-brand fw-bold my-auto nav-link " to="/contact"><PersonSquare size={"1.5em"} color='white' /></Link>
+                            <Link className="navbar-brand fw-bold my-auto nav-link " to="/info"><PersonSquare size={"1.5em"} color='white' /></Link>
                         </div>
                         <div className='col-3'>
                             <Link className="navbar-brand fw-bold my-auto nav-link " to="/résumé"><FileEarmarkFill size={"1.5em"} color='white' /></Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
                             <Link className="navbar-brand fw-bold my-auto nav-link " to="/projects" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>{hover ? "Projects" : <Window size={"1.5em"} color='white' />}</Link>
                         </div>
                         <div className='col-3'>
-                            <Link className="navbar-brand fw-bold my-auto nav-link " to="/contact" onMouseEnter={() => setHover2(true)} onMouseLeave={() => setHover2(false)}>{hover2 ? "About Me" : <PersonSquare size={"1.5em"} color='white' />}</Link>
+                            <Link className="navbar-brand fw-bold my-auto nav-link " to="/info" onMouseEnter={() => setHover2(true)} onMouseLeave={() => setHover2(false)}>{hover2 ? "About Me" : <PersonSquare size={"1.5em"} color='white' />}</Link>
                         </div>
                         <div className='col-3'>
                             <Link className="navbar-brand fw-bold my-auto nav-link " to="/résumé" onMouseEnter={() => setHover3(true)} onMouseLeave={() => setHover3(false)}>{hover3 ? "Résumé" : <FileEarmarkFill size={"1.5em"} color='white' />}</Link>

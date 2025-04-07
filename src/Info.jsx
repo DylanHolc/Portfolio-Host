@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "./AnimatedLetters";
 import Loader from "react-loaders";
-import './styles/Contact.scss';
+import './styles/Info.scss';
 
-const Contact = () => {
+const Info = () => {
     const [letterClass, setLetterClass] = useState("text-animate");
     const titleArray = ["A", "b", "o", "u", "t", " ", "M", "e"];
     useEffect(() => {
@@ -19,7 +19,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className="container-fluid contact">
+            <div className="container-fluid info">
                 <h1 className="d-flex justify-content-center mt-5"><AnimatedLetters letterClass={letterClass} strArray={titleArray} idx={15} /></h1>
                 <div className="row d-flex justify-content-center mt-5">
                     <p className="col-8 mt-4">
@@ -33,10 +33,10 @@ const Contact = () => {
                     </p>
 
                 </div>
-                <h6 className="d-flex justify-content-center mt-5">Thanks and I look forward to working with you!</h6>
+                <h6 className="d-flex justify-content-center mt-5">I appreciate your time and I look forward to working with you!</h6>
             </div>
             <Loader type="ball-grid-pulse" />
         </>
     );
 }
-export default Contact;
+export default Info;
