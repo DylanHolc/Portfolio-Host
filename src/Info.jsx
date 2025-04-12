@@ -9,19 +9,19 @@ const Info = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setLetterClass("text-animate-hover");
-        }, 5000);
+        }, 3000);
 
         return () => {
             clearTimeout(timeout);
         };
-    }
-        , []);
-
+    }, []);
+    
     return (
         <>
+        <Loader type="ball-grid-pulse" />
             <div className="container-fluid info">
                 <h1 className="d-flex justify-content-center mt-5"><AnimatedLetters letterClass={letterClass} strArray={titleArray} idx={15} /></h1>
-                <div className="row d-flex justify-content-center mt-5">
+                <div className="row d-flex justify-content-center text-center mt-5">
                     <p className="col-8 mt-4">
                         I've recently completed a full-stack web development bootcamp, where I honed my skills in front-end and back-end technologies. I have experience working with RESTful APIs, databases, and version control systems like Git. I am also familiar with Agile methodologies and have worked in collaborative team environments.
                     </p>
@@ -33,9 +33,8 @@ const Info = () => {
                     </p>
 
                 </div>
-                <h6 className="d-flex justify-content-center mt-5">I appreciate your time and I look forward to working with you!</h6>
+                <h6 className="d-flex justify-content-center text-center my-5">I appreciate your time and I look forward to working with you!</h6>
             </div>
-            <Loader type="ball-grid-pulse" />
         </>
     );
 }

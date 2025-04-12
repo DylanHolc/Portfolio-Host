@@ -47,7 +47,7 @@ const Homepage = () => {
                             idx={38} />
 
                     </h1>
-                    <h2>Full Stack / JavaScript / React / Python / Flask</h2>
+                    <h2 className="d-flex justify-content-start text-center">Full Stack / JavaScript / React / Python / Flask</h2>
                     <Link className="btn btn-lg contact" to="/contact">Get In Touch!</Link>
                 </div>
                 <AnimatedLogo />

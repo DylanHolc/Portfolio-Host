@@ -1,10 +1,9 @@
 .logo-container {
     z-index: -1;
     position: absolute;
-    top: auto;
-    right: 10%;
-    bottom: 18%;
-    left: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -50%);
     margin: auto;
 }
 
