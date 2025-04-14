@@ -55,3 +55,46 @@
         background-color: transparent;
     }
 }
+
+.mobile {
+
+    .textarea {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        margin-left: 5%
+    }
+
+    h1 {
+        font-size: 45px;
+        z-index: 1;
+
+
+        img {
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+            margin-bottom: 4px;
+            margin-right: 2px;
+            margin-left: -22px
+        }
+    }
+
+    h2 {
+        font-family: "Kanit", sans-serif;
+        font-size: 15px;
+        letter-spacing: 2px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .contact {
+        letter-spacing: 1px;
+        background-color: #2ECC40;
+        color: white;
+        animation: fadeIn 1s 1.8s backwards;
+        margin-top: 4vh;
+    }
+
+    .contact:hover {
+        border: 1.5px solid white;
+        background-color: transparent;
+    }
+}

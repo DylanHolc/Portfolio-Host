@@ -10,7 +10,18 @@ const Homepage = () => {
     const greetingArray = ["H", "e", "l", "l", "o", ",", " ", "I", "'", "m"];
     const nameArray = ["y", "l", "a", "n", " ", "H", "o", "l", "c", "o", "m", "b"];
     const jobArray = ["a", " ", "w", "e", "b", " ", "d", "e", "v", "e", "l", "o", "p", "e", "r", "."];
+    const [containerClass, setContainerClass] = useState("container-fluid homepage");
+    
 
+    useEffect(() => {
+            const handleResize = () => {
+                if (window.innerWidth < 800) {
+                    setContainerClass("mobile");
+                }
+            };
+            handleResize();
+        }, []);
+    
     useEffect(() => {
         const timeout = setTimeout(() => {
             setLetterClass("text-animate-hover");
@@ -24,7 +35,7 @@ const Homepage = () => {
 
     return (
         <>
-            <div className="container-fluid homepage">
+            <div className={containerClass}>
                 <span className="html-tags">&lt;html&gt;</span>
                 <br />
                 <span className="body-tags">&lt;body&gt;</span>
@@ -49,7 +60,7 @@ const Homepage = () => {
 
                     </h1>
                     <h2 className="d-flex justify-content-start text-center">Full Stack / JavaScript / React / Python / Flask</h2>
-                    <Link className="btn btn-lg contact" to="/contact">Get In Touch!</Link>
+                    <Link className="btn btn-lg contact" to="/info">Get In Touch!</Link>
                     </div>
                     <div className="d-none d-lg-block col-4">
                     <AnimatedLogo />
