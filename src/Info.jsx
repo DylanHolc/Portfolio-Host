@@ -33,7 +33,7 @@ const Info = () => {
                     </p>
 
                 </div>
-                <h6 className="d-flex justify-content-center text-center my-5">I appreciate your time and I look forward to working with you!</h6>
+                <h6 className="d-flex justify-content-center text-center my-5">I appreciate your time and look forward to working with you!</h6>
             </div>
         </>
     );

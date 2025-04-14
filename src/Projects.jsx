@@ -5,7 +5,9 @@ const Projects = () => {
     return (
         <div className="container-fluid text-center">
             <h1 className="my-4 ">Projects</h1>
-            <h4 className="my-4">*** These applications utilize a free version of Render to host the backend API/Database. As a result the first request made while interacting with the application may take up to 2 minutes to receive a response ***</h4>
+            <div className="d-flex justify-content-center text-center">
+            <h4 className="col-10 my-4">*** These applications utilize a free version of Render to host the backend API/Database. As a result the first request made while interacting with the application may take up to 2 minutes to receive a response ***</h4>
+            </div>
             <div className="d-flex justify-content-center row">
                 <div className="card bg-dark text-light m-3 col-9 border-0">
                     <img src="/Screenshot 2025-03-09 213606.png" className="card-img-top" alt="..." />
