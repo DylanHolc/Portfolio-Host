@@ -7,7 +7,7 @@ import "./styles/Homepage.scss";
 
 const Homepage = () => {
     const [letterClass, setLetterClass] = useState("text-animate");
-    const greetingArray = ["G", "r", "e", "e", "t", "i", "n", "g", "s", ",", " ", "I", "'", "m"];
+    const greetingArray = ["H", "e", "l", "l", "o", ",", " ", "I", "'", "m"];
     const nameArray = ["y", "l", "a", "n", " ", "H", "o", "l", "c", "o", "m", "b"];
     const jobArray = ["a", " ", "w", "e", "b", " ", "d", "e", "v", "e", "l", "o", "p", "e", "r", "."];
 
@@ -28,8 +28,9 @@ const Homepage = () => {
                 <span className="html-tags">&lt;html&gt;</span>
                 <br />
                 <span className="body-tags">&lt;body&gt;</span>
-                <div className="textarea">
-                    <h1>
+                <div className="row">
+                    <div className="textarea col-12 col-lg-6">
+                    <h1 className="">
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={greetingArray}
@@ -39,18 +40,21 @@ const Homepage = () => {
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={nameArray}
-                            idx={26} />
+                            idx={21} />
                         <br />
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={jobArray}
-                            idx={38} />
+                            idx={33} />
 
                     </h1>
                     <h2 className="d-flex justify-content-start text-center">Full Stack / JavaScript / React / Python / Flask</h2>
                     <Link className="btn btn-lg contact" to="/contact">Get In Touch!</Link>
+                    </div>
+                    <div className="d-none d-lg-block col-4">
+                    <AnimatedLogo />
+                    </div>
                 </div>
-                <AnimatedLogo />
                 <span className="body-tags">&lt;/body&gt;</span>
                 <br />
                 <span className="html-tags">&lt;/html&gt;</span>

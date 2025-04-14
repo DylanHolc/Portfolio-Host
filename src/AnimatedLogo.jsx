@@ -18,8 +18,8 @@ const AnimatedLogo = () => {
         , []);
 
     return (
-        <div className="logo-container">
-            <img src="/d-high-resolution-logo-transparent.png" ref={solidLogoRef} alt="Logo" className="solidLogo" height={"600px"} width={"450px"} />
+        <div className="position-absolute z-n1">
+            <img src="/d-high-resolution-logo-transparent.png" ref={solidLogoRef} alt="Logo" className="solidLogo position-absolute" height={"600px"} width={"450px"} />
             <img src="/d-high-resolution-logo-grayscale-transparent.png" ref={fadedLogoRef} alt="Logo" className={logoClass} height={"600px"} width={"450px"} />
         </div>
     );
