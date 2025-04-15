@@ -1,15 +1,14 @@
-import React, { useState } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
-import Homepage from './Homepage'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import Projects from './Projects'
-import Résumé from './Résumé'
-import Info from './Info'
-import './styles/App.scss'
+import React, { useState } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Homepage from "./Homepage";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Projects from "./Projects";
+import Résumé from "./Résumé";
+import Info from "./Info";
+import "./styles/App.scss";
 
 function App() {
-
   return (
     <div className="App bg-dark text-light">
       <Navbar />
@@ -22,7 +21,7 @@ function App() {
       </Routes>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

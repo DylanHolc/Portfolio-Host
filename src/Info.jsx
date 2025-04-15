@@ -5,7 +5,6 @@ import "./styles/Info.scss";
 
 const Info = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const [containerClass, setContainerClass] = useState("container-fluid info");
   const titleArray = ["A", "b", "o", "u", "t", " ", "M", "e"];
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -15,15 +14,6 @@ const Info = () => {
     return () => {
       clearTimeout(timeout);
     };
-  }, []);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 700) {
-        setContainerClass("container-fluid mobile");
-      }
-    };
-    handleResize();
   }, []);
 
   return (

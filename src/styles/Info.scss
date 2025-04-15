@@ -22,67 +22,6 @@
   h1 {
     font-size: 55px;
     font-family: "Kanit", sans-serif;
-
-    &::before {
-      content: "<h1>";
-      font-family: "Atkinson Hyperlegible Mono", sans-serif;
-      color: #3d9970;
-      font-size: 2.5rem;
-      margin-right: 10px;
-      margin-top: 10px;
-      animation: fadeIn 1s 2s backwards;
-    }
-
-    &::after {
-      content: "<h1>";
-      font-family: "Atkinson Hyperlegible Mono", sans-serif;
-      color: #3d9970;
-      font-size: 2.5rem;
-      margin-left: 10px;
-      margin-top: 10px;
-      animation: fadeIn 1s 2s backwards;
-    }
-  }
-
-  p {
-    font-family: "Kanit", sans-serif;
-    font-size: 20px;
-    animation: fadeIn 1s 2s backwards;
-  }
-
-  h6 {
-    font-size: 1.75rem;
-    font-family: "Kanit", sans-serif;
-    animation: fadeIn 1s 2s backwards;
-  }
-}
-
-.mobile {
-  h1 {
-    font-size: 55px;
-    font-family: "Kanit", sans-serif;
-
-    &::before {
-      content: "<h1>";
-      font-family: "Atkinson Hyperlegible Mono", sans-serif;
-      color: #3d9970;
-      font-size: 2.5rem;
-      margin-right: 10px;
-      margin-top: 10px;
-      animation: fadeIn 1s 2s backwards;
-      opacity: 0;
-    }
-
-    &::after {
-      content: "<h1>";
-      font-family: "Atkinson Hyperlegible Mono", sans-serif;
-      color: #3d9970;
-      font-size: 2.5rem;
-      margin-left: 10px;
-      margin-top: 10px;
-      animation: fadeIn 1s 2s backwards;
-      opacity: 0;
-    }
   }
 
   p {
