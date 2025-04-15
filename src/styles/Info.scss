@@ -1,86 +1,77 @@
-@import 'loaders.css/src/animations/ball-grid-pulse.scss';
+@import "loaders.css/src/animations/ball-grid-pulse.scss";
 
 .loader-hidden {
-    display: none;
+  display: none;
 }
 
 .loader-active {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 15%;
-    width: 100px;
-    height: 100px;
-    animation: fadeOut 1s 1s;
-    animation-fill-mode: forwards;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 15%;
+  width: 100px;
+  height: 100px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
 }
 
 .info {
+  h1 {
+    font-size: 55px;
+    font-family: "Kanit", sans-serif;
 
-    h1 {
-        font-size: 55px;
-        font-family: "Kanit", sans-serif;
-
-
-        &::before {
-            content: '<h1>';
-            font-family: "Atkinson Hyperlegible Mono", sans-serif;
-            color: #3D9970;
-            font-size: 2.5rem;
-            margin-right: 10px;
-            margin-top: 10px;
-            animation: fadeIn 1s 2s backwards;
-
-
-        }
-
-        &::after {
-            content: '<h1>';
-            font-family: "Atkinson Hyperlegible Mono", sans-serif;
-            color: #3D9970;
-            font-size: 2.5rem;
-            margin-left: 10px;
-            margin-top: 10px;
-            animation: fadeIn 1s 2s backwards;
-
-        }
-
+    &::before {
+      content: "<h1>";
+      font-family: "Atkinson Hyperlegible Mono", sans-serif;
+      color: #3d9970;
+      font-size: 2.5rem;
+      margin-right: 10px;
+      margin-top: 10px;
+      animation: fadeIn 1s 2s backwards;
     }
 
-    p {
-        font-family: "Kanit", sans-serif;
-        font-size: 20px;
-        animation: fadeIn 1s 2s backwards;
+    &::after {
+      content: "<h1>";
+      font-family: "Atkinson Hyperlegible Mono", sans-serif;
+      color: #3d9970;
+      font-size: 2.5rem;
+      margin-left: 10px;
+      margin-top: 10px;
+      animation: fadeIn 1s 2s backwards;
     }
+  }
 
-    h6 {
-        font-size: 1.75rem;
-        font-family: "Kanit", sans-serif;
-        animation: fadeIn 1s 2s backwards;
-    }
+  p {
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    animation: fadeIn 1s 2s backwards;
+  }
+
+  h6 {
+    font-size: 1.75rem;
+    font-family: "Kanit", sans-serif;
+    animation: fadeIn 1s 2s backwards;
+  }
 }
 
 .mobile {
+  h1 {
+    font-size: 55px;
+    font-family: "Kanit", sans-serif;
+  }
 
-    h1 {
-        font-size: 55px;
-        font-family: "Kanit", sans-serif;
+  p {
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    animation: fadeIn 1s 2s backwards;
+  }
 
-
-    }
-
-    p {
-        font-family: "Kanit", sans-serif;
-        font-size: 20px;
-        animation: fadeIn 1s 2s backwards;
-    }
-
-    h6 {
-        font-size: 1.75rem;
-        font-family: "Kanit", sans-serif;
-        animation: fadeIn 1s 2s backwards;
-    }
+  h6 {
+    font-size: 1.75rem;
+    font-family: "Kanit", sans-serif;
+    animation: fadeIn 1s 2s backwards;
+  }
 }
