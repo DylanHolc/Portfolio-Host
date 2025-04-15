@@ -6,17 +6,17 @@ import Loader from "react-loaders";
 import "./styles/Homepage.scss";
 
 const Homepage = () => {
+    const [containerClass, setContainerClass] = useState("container-fluid homepage");
     const [letterClass, setLetterClass] = useState("text-animate");
     const greetingArray = ["H", "e", "l", "l", "o", ",", " ", "I", "'", "m"];
     const nameArray = ["y", "l", "a", "n", " ", "H", "o", "l", "c", "o", "m", "b"];
     const jobArray = ["a", " ", "w", "e", "b", " ", "d", "e", "v", "e", "l", "o", "p", "e", "r", "."];
-    const [containerClass, setContainerClass] = useState("container-fluid homepage");
     
 
     useEffect(() => {
             const handleResize = () => {
                 if (window.innerWidth < 800) {
-                    setContainerClass("mobile");
+                    setContainerClass(" container-fluid mobile");
                 }
             };
             handleResize();
