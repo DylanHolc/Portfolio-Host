@@ -5,6 +5,7 @@ import "./styles/Info.scss";
 
 const Info = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
+  const [containerClass, setContainerClass] = useState("container-fluid info");
   const titleArray = ["A", "b", "o", "u", "t", " ", "M", "e"];
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -16,10 +17,19 @@ const Info = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 800) {
+        setContainerClass("container-fluid xl");
+      }
+    };
+    handleResize();
+  }, []);
+
   return (
     <>
       <Loader type="ball-grid-pulse" />
-      <div className="container-fluid info">
+      <div className={containerClass}>
         <h1 className="d-flex justify-content-center mt-5">
           <AnimatedLetters
             letterClass={letterClass}
