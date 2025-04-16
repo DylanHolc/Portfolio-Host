@@ -19,7 +19,7 @@ const Info = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 800) {
+      if (window.innerWidth > 1400) {
         setContainerClass("container-fluid xl");
       }
     };
