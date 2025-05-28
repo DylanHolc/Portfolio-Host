@@ -1,18 +1,5 @@
 @import "loaders.css/src/animations/pacman.scss";
 
-.loader-hidden {
-  display: none;
-}
-
-.loader-active {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  animation: fadeOut 1s 1s;
-  animation-fill-mode: forwards;
-}
-
 .homepage {
   .textarea {
     margin-top: 15vh;

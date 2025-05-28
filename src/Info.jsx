@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "./AnimatedLetters";
-import Loader from "react-loaders";
 import "./styles/Info.scss";
 
 const Info = () => {
@@ -28,7 +27,6 @@ const Info = () => {
 
   return (
     <>
-      <Loader type="ball-grid-pulse" />
       <div className={containerClass}>
         <h1 className="d-flex justify-content-center mt-5">
           <AnimatedLetters

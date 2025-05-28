@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import AnimatedLetters from "./AnimatedLetters";
 import AnimatedLogo from "./AnimatedLogo";
-import Loader from "react-loaders";
 import "./styles/Homepage.scss";
 
 const Homepage = () => {
@@ -112,7 +111,6 @@ const Homepage = () => {
         <br />
         <span className="html-tags">&lt;/html&gt;</span>
       </div>
-      <Loader type="pacman" />
     </>
   );
 };
