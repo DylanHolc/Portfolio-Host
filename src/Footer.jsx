@@ -20,7 +20,7 @@ const Footer = () => {
             <span>Get connected with me on social networks:</span>
           </div>
           <div>
-            <Link
+            {/* <Link
               className="navbar-brand me-4 text-reset"
               to="https://www.instagram.com/"
             >
@@ -28,7 +28,7 @@ const Footer = () => {
             </Link>
             <Link className="navbar-brand me-4 text-reset" to="https://x.com/">
               <TwitterX size={"1.5em"} color="white" className="m-2" />
-            </Link>
+            </Link> */}
             <Link
               className="navbar-brand me-4 text-reset"
               to="https://www.linkedin.com/in/dylan-holcomb-179036231/"
@@ -52,7 +52,7 @@ const Footer = () => {
                 </h6>
                 <p>
                   Welcome to my portfolio! Here you can find a directory of all
-                  of my projects and accomplishments.
+                  my projects and accomplishments.
                 </p>
               </div>
               <div className="col-md-6 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">

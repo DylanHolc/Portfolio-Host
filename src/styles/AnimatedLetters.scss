@@ -1,20 +1,30 @@
+// Dark Monochromatic Theme Variables
+$text-primary: #ffffff;
+$accent-light: #e0e0e0;
+$accent-medium: #808080;
+
 .text-animate {
   display: inline-block;
   opacity: 0;
   animation: bounceIn 1s 1s;
   animation-fill-mode: forwards;
   min-width: 10px;
+  color: $text-primary;
 }
 
 .text-animate-hover {
   display: inline-block;
   min-width: 10px;
   animation-fill-mode: both;
+  color: $text-primary;
+  transition: all 0.3s ease;
 
   &:hover {
     animation: rubberBand 1s;
-    color: #2ecc40;
+    color: $accent-light;
     cursor: pointer;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
   }
 }
 

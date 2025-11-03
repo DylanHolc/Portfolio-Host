@@ -1,0 +1,22 @@
+.resume-page {
+  .resume-image {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  // Ensure both images are exactly the same size on all screen sizes
+  @media (min-width: 992px) {
+    .resume-image {
+      max-width: 900px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .resume-image {
+      max-width: 100%;
+    }
+  }
+}
+

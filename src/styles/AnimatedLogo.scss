@@ -1,13 +1,33 @@
+// Dark Monochromatic Theme Variables
+$text-primary: #ffffff;
+$text-secondary: #d0d0d0;
+$accent-light: #e0e0e0;
+$accent-medium: #808080;
+
 .fadedLogo {
     transform: rotateZ(20deg) !important;
     animation: fadeOut 4.5s 1.8s backwards;
+    filter: grayscale(100%) brightness(0.5) opacity(0.25) contrast(0.9);
+    transition: filter 0.3s ease;
 }
 
 .solidLogo {
     transform: rotateZ(20deg);
     animation: fadeIn 4.5s 1.8s backwards;
+    filter: grayscale(100%) brightness(1.1) contrast(1.2);
+    transition: filter 0.3s ease;
+    opacity: 0.9;
+    mix-blend-mode: normal;
 }
 
 .invis {
     opacity: 0;
+}
+
+// Container styling for better integration
+.position-absolute {
+    .solidLogo,
+    .fadedLogo {
+        will-change: opacity, filter;
+    }
 }

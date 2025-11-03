@@ -1,21 +1,33 @@
 @import "loaders.css/src/animations/ball-grid-pulse.scss";
 
+// Dark Monochromatic Theme Variables
+$text-primary: #ffffff;
+$text-secondary: #d0d0d0;
+$text-tertiary: #a0a0a0;
+
 .info {
   h1 {
     font-size: 55px;
     font-family: "Kanit", sans-serif;
+    color: $text-primary;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
   }
 
   p {
     font-family: "Kanit", sans-serif;
     font-size: 20px;
     animation: fadeIn 1s 2s backwards;
+    color: $text-secondary;
+    line-height: 1.8;
+    font-weight: 300;
   }
 
   h6 {
     font-size: 1.75rem;
     font-family: "Kanit", sans-serif;
     animation: fadeIn 1s 2s backwards;
+    color: $text-secondary;
+    font-weight: 300;
   }
 }
 
@@ -23,17 +35,24 @@
   h1 {
     font-size: 75px;
     font-family: "Kanit", sans-serif;
+    color: $text-primary;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
   }
 
   p {
     font-size: 35px;
     font-family: "Kanit", sans-serif;
     animation: fadeIn 1s 2s backwards;
+    color: $text-secondary;
+    line-height: 1.8;
+    font-weight: 300;
   }
 
   h6 {
     font-size: 2.75rem;
     font-family: "Kanit", sans-serif;
     animation: fadeIn 1s 2s backwards;
+    color: $text-secondary;
+    font-weight: 300;
   }
 }

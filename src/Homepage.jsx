@@ -97,7 +97,7 @@ const Homepage = () => {
               />
             </h1>
             <h2 className="d-flex justify-content-start text-center">
-              Full Stack / JavaScript / React / Python / Flask
+              Full Stack / JavaScript / React / Python / C# / .NET
             </h2>
             <Link className="btn btn-lg contact" to="/info">
               Get In Touch!
