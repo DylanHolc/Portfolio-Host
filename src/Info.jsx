@@ -37,18 +37,19 @@ const Info = () => {
         </h1>
         <div className="row d-flex justify-content-center text-center mt-5">
           <p className="col-12 col-md-8 mt-4">
-            I've recently completed a full-stack web development bootcamp, where
-            I honed my skills in front-end and back-end technologies. I have
+            Having completed a full-stack web development bootcamp, where I
+            honed my skills in front-end and back-end technologies. I have
             experience working with RESTful APIs, databases, and version control
             systems like Git. I am also familiar with Agile methodologies and
             have worked in collaborative team environments.
           </p>
           <p className="col-12 col-md-8 mt-4">
-            I have a strong foundation in JavaScript, React, and Python as well
-            as brief experience using C# and .NET/MVC. I enjoy creating dynamic
-            web applications that provide a seamless user experience, as well as
-            working on complex backend logic intensive solutions. I am always
-            eager to learn new technologies and improve my skills.
+            I have a strong foundation in JavaScript, React, Next.js, Astro.js,
+            and Python as well as brief experience using C# and .NET/MVC. I
+            enjoy creating dynamic web applications that provide a seamless user
+            experience, as well as working on complex backend logic intensive
+            solutions. I am always eager to learn new technologies and improve
+            my skills.
           </p>
           <p className="col-12 col-md-8 my-4">
             If you are looking for a web developer to join your team, please

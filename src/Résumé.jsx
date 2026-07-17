@@ -6,7 +6,7 @@ const Résumé = () => {
     <div className="container-fluid row resume-page">
       <div className="col-12 d-flex justify-content-center mt-5 mb-3">
         <img
-          src="/DylanHolcombResume.jpg"
+          src="/Resume.png"
           alt="Resume"
           className="my-5 img-fluid resume-image"
         />
